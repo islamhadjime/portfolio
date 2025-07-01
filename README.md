@@ -17,5 +17,5 @@
 - JavaScript 
 
 ## 📸 Скриншоты  
-(Добавьте ссылки на изображения)  
+![Alt-текст](https://github.com/islamhadjime/portfolio/blob/main/img/PORT.png  "portfolio")
 
