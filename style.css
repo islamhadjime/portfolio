@@ -137,13 +137,15 @@ header{
     justify-content: center;
     overflow: hidden;
 
-    img{
-        width: 100%;
-        height: 100%;
-    }
 }
 
-
+.hero__inner_avatar img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* или 'contain' в зависимости от потребностей */
+        image-rendering: -webkit-optimize-contrast; /* Фикс для Safari */
+        image-rendering: crisp-edges;
+    }
 
 .gradient_text{
     background: linear-gradient(90deg, #FF8660, #9A33FF);
@@ -461,13 +463,18 @@ header{
         flex-direction: column;
         align-items: flex-start;
     }
-    .hero__inner_avatar{
-        width: 150px;
+
+
+    .hero__inner_avatar img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* или 'contain' в зависимости от потребностей */
+        image-rendering: -webkit-optimize-contrast; /* Фикс для Safari */
+        image-rendering: crisp-edges;
     }
 
     .project__inner__lister_item_content{
         padding: 0 10px;
         width: 100%;
-    
     }
 }
