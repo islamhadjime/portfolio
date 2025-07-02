@@ -300,14 +300,18 @@ header{
     align-items: center;
     justify-content: space-between;
     background-color: var(--header-bg);
+    
 }
 .project__inner__lister_item_content_text{}
 .project__inner__lister_item_content_text p{
     font-size: 13px;
+    color: var(--text-color);
+    text-decoration-line: underline;
 }
 .project__inner__lister_item_content_text h3{
     font-size: 15px;
     color: var(--text-color);
+    text-decoration-line: underline;
 }
 .project__inner__lister_item_content_icon{}
 

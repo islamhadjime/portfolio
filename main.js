@@ -76,3 +76,13 @@ themeToggle.addEventListener("click", () => {
 
 
 
+document.querySelectorAll('ul li a').forEach(link =>{
+    link.addEventListener('click', () => {
+        const header__inner = document.querySelector('ul')
+        header__inner.classList.remove('menu_burger_lister')
+        header__inner.classList.add('header__inner_lister')
+        burger_left.style.dispaly = 'block'
+        burger_right.classList.remove('active__right')
+
+    })
+})
